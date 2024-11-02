@@ -22,7 +22,7 @@ curl -o get-pip.py "http://mirrors.aliyun.com/pypi/get-pip.py"
 
 echo lib\site-packages>> python39._pth
 
-rename python.exe python3.9.exe
+copy python.exe python3.9.exe
 setx PATH "%PATH%;C:\Users\Public\vscode\python3.9;C:\Users\Public\vscode\python3.9\Scripts;C:\Users\Public\vscode\python3.9\python3.9.exe"
 setx -M PATH "%PATH%;C:\Users\Public\vscode\python3.9;C:\Users\Public\vscode\python3.9\Script;C:\Users\Public\vscode\python3.9\python3.9.exe"
 

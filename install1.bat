@@ -24,7 +24,7 @@ echo lib\site-packages>> python39._pth
 
 copy python.exe python3.9.exe
 setx PATH "%PATH%;C:\Users\Public\vscode\python3.9;C:\Users\Public\vscode\python3.9\Scripts;C:\Users\Public\vscode\python3.9\python3.9.exe"
-setx -M PATH "%PATH%;C:\Users\Public\vscode\python3.9;C:\Users\Public\vscode\python3.9\Script;C:\Users\Public\vscode\python3.9\python3.9.exe"
+setx /M PATH "%PATH%;C:\Users\Public\vscode\python3.9;C:\Users\Public\vscode\python3.9\Script;C:\Users\Public\vscode\python3.9\python3.9.exe"
 
 echo Everything is ok...
 

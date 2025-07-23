@@ -17,8 +17,7 @@ cd python3.9
 curl -o "python.zip" "https://mirrors.aliyun.com/python-release/windows/python-3.9.0-embed-amd64.zip?spm=a2c6h.25603864.0.0.4ac531fcDZkuHg"
 tar -xvzf python.zip 
 
-curl -o get-pip.py "http://mirrors.aliyun.com/pypi/get-pip.py"
-.\python get-pip.py -i https://pypi.tuna.tsinghua.edu.cn/simple 
+.\python get-pip.py -i https://mirrors.aliyun.com/pypi/simple 
 
 echo lib\site-packages>> python39._pth
 

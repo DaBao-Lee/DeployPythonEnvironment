@@ -17,6 +17,8 @@ cd python3.11
 curl -o "python.zip" "https://mirrors.aliyun.com/python-release/windows/python-3.11.2-embed-amd64.zip?spm=a2c6h.25603864.0.0.392831fcBfM9bV"
 tar -xvzf python.zip 
 
+curl -o "get-pip.py" "https://raw.githubusercontent.com/DaBao-Lee/DeployPythonEnvironment/main/get-pip.py"
+
 .\python get-pip.py -i https://mirrors.aliyun.com/pypi/simple 
 
 echo lib\site-packages>> python311._pth

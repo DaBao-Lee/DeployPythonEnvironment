@@ -1,6 +1,6 @@
 # 🐍 Python 环境部署脚本说明
 
-该项目包含一个 Windows 批处理文件 `setup.bat`，用于在本地快速部署轻量级 Python 3.9 环境，并下载与解压 VS Code，以便进行 Python 开发。本脚本特别适用于没有管理员权限或希望在无需安装情况下运行 Python 的场景。
+该项目包含一个 Windows 批处理文件 `setup.bat`，用于在本地快速部署轻量级 Python 3.9 环境，并下载与解压 VS Code，以便进行 Python 开发。本脚本特别适用于希望在无需安装情况下运行 Python 的场景。
 
 ## 📂 功能概述
 
